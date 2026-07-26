@@ -1,0 +1,33 @@
+1. Selecione todos os dados da tabela clientes, limitando a 10 linhas.
+
+2. Selecione apenas idCliente e qtdePontos de todos os clientes.
+
+3. Liste todos os produtos da categoria 'espada'.
+
+4. Liste os clientes que têm flTwitch = 1 (ou seja, vincularam a conta da Twitch).
+
+5. Liste as transações cujo DescSistemaOrigem seja 'cursos'.
+
+6. Liste, sem repetir, todas as categorias de produto existentes (DISTINCT).
+
+7. Liste os produtos cujo nome (DescNomeProduto) contenha a palavra "Espada" (use LIKE com %).
+
+8. Liste os clientes que têm flYouTube = 1 ou flBlueSky = 1 (resolva com OR).
+
+9. Liste os clientes cuja qtdePontos seja maior que 1000, ordenados do maior número de pontos pro menor (ORDER BY ... DESC).
+
+10. Nas transações, crie uma coluna data_formatada mostrando DtCriacao no formato dd/mm/aaaa (STRFTIME).
+
+11. Para cada cliente, crie uma coluna perfil_pontos que mostre 'VIP' se qtdePontos >= 5000, 'Ativo' se qtdePontos >= 100, e 'Iniciante' caso contrário (CASE WHEN).
+
+12. Conte quantos clientes existem no total (COUNT(*)) e, em outra query, conte quantos clientes têm flInstagram = 1.
+
+13. Conte quantas categorias de produto diferentes existem na tabela produtos (COUNT(DISTINCT ...)).
+
+14. Em transacao_produto, mostre QtdeProduto, vlProduto e uma coluna calculada total_gasto (QtdeProduto * vlProduto) usando AS.
+
+15. Mostre, na tabela transacoes: o total de pontos distribuídos (SUM), a média de pontos por transação (AVG), o maior valor de pontos numa transação só (MAX) e o menor (MIN).
+
+16. Mostre o total de pontos ganhos (SUM(QtdePontos)) agrupado por DescSistemaOrigem (GROUP BY). Qual sistema gera mais pontos: twitch ou cursos?
+
+17. Mostre quantas transações (COUNT) cada cliente (IdCliente) tem na tabela transacoes, mas liste apenas os clientes com mais de 100 transações (GROUP BY + HAVING).
