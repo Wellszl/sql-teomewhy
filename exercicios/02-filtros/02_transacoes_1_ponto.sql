@@ -2,4 +2,4 @@
 SELECT IdTransacao,
     qtdePontos
 FROM transacoes
-WHERE qtdePontos = 1
+WHERE qtdePontos = 1;

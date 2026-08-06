@@ -4,4 +4,4 @@ SELECT IdProduto,
 FROM transacao_produto
 GROUP BY IdProduto
 ORDER BY 2 DESC
-LIMIT 1
+LIMIT 1;

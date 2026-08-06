@@ -3,4 +3,4 @@ SELECT idCliente,
     flEmail
 FROM clientes
 WHERE flEmail = '1'
-LIMIT 10
+LIMIT 10;

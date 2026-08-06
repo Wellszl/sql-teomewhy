@@ -5,4 +5,4 @@ SELECT IdTransacao,
     datetime(substr("DtCriacao", 1, 10)) AS DateTime,
     strftime('%w', datetime(substr("DtCriacao", 1, 10))) AS DiaDaSemana
 FROM transacoes
-WHERE strftime('%w', datetime(substr("DtCriacao", 1, 10))) = '5'
+WHERE strftime('%w', datetime(substr("DtCriacao", 1, 10))) IN ('0', '6');

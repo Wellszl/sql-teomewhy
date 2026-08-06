@@ -4,8 +4,8 @@ SELECT IdProduto,
     vlProduto,
     CASE
         WHEN vlProduto < 10 THEN 'baixo'
-        WHEN vlProduto < 500 THEN 'medio'
+        WHEN vlProduto < 500 THEN 'médio'
         ELSE 'alto'
     END AS TabelaDeValores
 FROM transacao_produto
-ORDER BY vlProduto DESC
+ORDER BY vlProduto DESC;

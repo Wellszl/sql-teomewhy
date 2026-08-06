@@ -3,4 +3,4 @@ SELECT idCliente,
     qtdePontos
 FROM clientes
 WHERE qtdePontos >= 100
-    AND QtdePontos <= 200
+    AND QtdePontos <= 200;

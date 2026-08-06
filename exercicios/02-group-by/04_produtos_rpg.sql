@@ -1,4 +1,4 @@
---quantos produtos sao de Rpg
+--quantos produtos são de RPG
 SELECT count(DescCategoriaProduto) AS quantidade_rpg
 FROM produtos
-WHERE DescCategoriaProduto = 'rpg'
+WHERE DescCategoriaProduto = 'rpg';

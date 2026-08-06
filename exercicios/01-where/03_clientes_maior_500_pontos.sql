@@ -2,4 +2,4 @@
 SELECT idCliente,
     qtdePontos
 FROM clientes
-WHERE qtdePontos > 500
+WHERE qtdePontos > 500;
