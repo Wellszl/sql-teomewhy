@@ -1,8 +1,8 @@
--- intervalos
--- 0 a 500 = bronze
--- 501 a 1000 = prata
+-- Intervalos:
+-- 0 a 500     = bronze
+-- 501 a 1000  = prata
 -- 1001 a 1500 = ouro
--- 1501 ou + = diamante
+-- 1501 ou +   = diamante
 SELECT idCliente,
     qtdePontos,
     CASE

@@ -1,4 +1,4 @@
---do início ao fim do curso 2025/08/25 a 2025/08/29 quantos clientes assinaram a lista de presença?
+-- Do início ao fim do curso (2025/08/25 a 2025/08/29), quantos clientes assinaram a lista de presença?
 SELECT count(DISTINCT t2.idCliente) AS qteDeClientes
 FROM transacao_produto AS t1
     LEFT JOIN transacoes AS t2 ON t1.IdTransacao = t2.IdTransacao

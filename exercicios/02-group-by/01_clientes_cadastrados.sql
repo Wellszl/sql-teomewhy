@@ -1,3 +1,3 @@
---quantos clientes tem email cadastrado?
+-- Quantos clientes têm email cadastrado?
 SELECT sum(flEmail)
 FROM clientes;

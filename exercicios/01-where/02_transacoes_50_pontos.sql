@@ -1,4 +1,4 @@
---selecione todas as transações de 50 pontos
+-- Selecione todas as transações de 50 pontos
 SELECT IdTransacao,
     qtdePontos
 FROM transacoes

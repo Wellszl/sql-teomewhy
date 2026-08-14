@@ -1,4 +1,4 @@
---quais clientes mais perderam pontos por lover
+-- Quais clientes mais perderam pontos por lover
 SELECT t1.idCliente,
     t3.DescCategoriaProduto,
     sum(t1.qtdePontos) AS qteDePontos

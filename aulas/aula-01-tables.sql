@@ -1,2 +1,2 @@
---outros SGBDs vão exibir as tabelas com o comando "SHOW TABLES"
+-- Outros SGBDs exibem as tabelas com o comando "SHOW TABLES".
 .tables

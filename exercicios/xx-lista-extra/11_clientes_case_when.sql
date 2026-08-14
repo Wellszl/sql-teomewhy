@@ -3,7 +3,7 @@ SELECT idCliente,
     qtdePontos,
     CASE
         WHEN qtdePontos >= 5000 THEN 'VIP'
-        WHEN qtdePontos >= 100 THEN 'ativo'
-        ELSE 'iniciante'
+        WHEN qtdePontos >= 100 THEN 'Ativo'
+        ELSE 'Iniciante'
     END AS perfil_pontos
 FROM clientes;

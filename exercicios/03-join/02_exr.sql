@@ -1,4 +1,4 @@
---em 2024, quantas transações de Lovers tivemos?
+-- Em 2024, quantas transações de Lovers tivemos?
 SELECT count(DISTINCT t1.IdTransacao) AS qteDeTransacoes
 FROM transacoes AS t1
     LEFT JOIN transacao_produto AS t2 ON t1.IdTransacao = t2.IdTransacao

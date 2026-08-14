@@ -1,4 +1,4 @@
---listar todas as transações adicionando uma coluna nova, sinalizando "alto", "médio" e "baixo" para o valor dos depósitos
+-- Liste todas as transações adicionando uma coluna nova, sinalizando "alto", "médio" e "baixo" para o valor dos depósitos
 SELECT IdProduto,
     IdTransacao,
     vlProduto,

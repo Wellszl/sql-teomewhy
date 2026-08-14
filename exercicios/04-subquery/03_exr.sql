@@ -1,4 +1,4 @@
---como foi a curva de churn do curso?
+-- Como foi a curva de churn do curso?
 WITH clientesDiaUm AS (
     SELECT idCliente
     FROM transacoes

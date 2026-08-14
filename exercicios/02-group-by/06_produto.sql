@@ -1,6 +1,6 @@
---qual foi o produto mais transacionado
+-- Qual foi o produto mais transacionado
 SELECT IdProduto,
-    count(idTransacao)
+    count(IdTransacao)
 FROM transacao_produto
 GROUP BY IdProduto
 ORDER BY 2 DESC

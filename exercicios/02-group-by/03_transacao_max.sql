@@ -1,4 +1,4 @@
---qual cliente fez mais transacoes no ano de 2024
+-- Qual cliente fez mais transações no ano de 2024
 SELECT idCliente,
     count(IdTransacao)
 FROM transacoes

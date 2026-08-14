@@ -1,4 +1,4 @@
---lista de transações com 1 ponto
+-- Lista de transações com 1 ponto
 SELECT IdTransacao,
     qtdePontos
 FROM transacoes

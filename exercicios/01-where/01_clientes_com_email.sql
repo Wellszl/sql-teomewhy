@@ -1,6 +1,6 @@
--- selecione todos os clientes com o email cadastrado
+-- Selecione todos os clientes com o email cadastrado
 SELECT idCliente,
     flEmail
 FROM clientes
-WHERE flEmail = '1'
+WHERE flEmail = 1
 LIMIT 10;
